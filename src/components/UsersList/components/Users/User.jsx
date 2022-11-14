@@ -29,11 +29,11 @@ export const User = ({
     <ButtonUser onClick={() => onClickInvite(id)}>
       {isInvited ? (
         <div>
-          <HiUserAdd size={30} />
+<HiX size={30} />
         </div>
       ) : (
         <div>
-          <HiX size={30} />
+          <HiUserAdd size={30} />
         </div>
       )}
     </ButtonUser>
